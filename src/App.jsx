@@ -1,42 +1,44 @@
 import React from 'react'
+import Header from './header'
+import MainContent from './mainContent'
+import Footer from './footer'
 
+// function Header(){
+//   return (
+//       <header className="header-container">
+//         <img src="../public/images/React.webp" className="nav-bar-logo" alt="React Logo" />
+//         <nav className="nav-container">
+//           <ul className="nav-list">
+//             <li>Home</li>
+//             <li>About</li>
+//             <li>Contact</li>
+//           </ul>
+//         </nav>
+//       </header>
+//   )
+// }
 
-function Header(){
-  return (
-      <header className="header-container">
-        <img src="../public/images/React.webp" className="nav-bar-logo" alt="React Logo" />
-        <nav className="nav-container">
-          <ul className="nav-list">
-            <li>Home</li>
-            <li>About</li>
-            <li>Contact</li>
-          </ul>
-        </nav>
-      </header>
-  )
-}
+// function MainContent(){
+//   return (
+//     <main className="main-container">
+//         <h1>This is a cool ass page</h1>
 
-function MainContent(){
-  return (
-    <main className="main-container">
-        <h1>This is a cool ass page</h1>
+//         <ul>
+//           <li>Great for front-end development</li>
+//           <li>Great for back-end development</li>
+//           <li>Great for full-stack development</li>
+//           <li>Great for mobile development</li>
+//           <li>Great for desktop development</li>
+//         </ul>
+//       </main>
+//   )
+// }
 
-        <ul>
-          <li>Great for front-end development</li>
-          <li>Great for back-end development</li>
-          <li>Great for full-stack development</li>
-          <li>Great for mobile development</li>
-          <li>Great for desktop development</li>
-        </ul>
-      </main>
-  )
-}
-
-function Footer(){
-  return (
-    <footer className="footer-container"><small>© 20xx Alexandru development. All rights reserved.</small></footer>
-  )
-}
+// function Footer(){
+//   return (
+//     <footer className="footer-container"><small>© 20xx Alexandru development. All rights reserved.</small></footer>
+//   )
+// }
 
 function App() {
   return (

@@ -1,13 +1,24 @@
 import React from 'react'
 
-function App() {
-  return (
-    <div>
-      <header>
-        <img src="../public/images/React.webp" alt="React Logo" width="100" />
-      </header>
 
-      <main>
+function Header(){
+  return (
+      <header className="header-container">
+        <img src="../public/images/React.webp" alt="React Logo" width="100" />
+        <nav className="nav-container">
+          <ul className="nav-list">
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+          </ul>
+        </nav>
+      </header>
+  )
+}
+
+function MainContent(){
+  return (
+    <main>
         <h1>This is a cool ass page</h1>
 
         <ul>
@@ -18,8 +29,22 @@ function App() {
           <li>Great for desktop development</li>
         </ul>
       </main>
-      <footer>© 20xx Alexandru development. All rights reserved.</footer>
-    </div>
+  )
+}
+
+function Footer(){
+  return (
+    <footer><small>© 20xx Alexandru development. All rights reserved.</small></footer>
+  )
+}
+
+function App() {
+  return (
+    <>
+      <Header />
+      <MainContent />
+      <Footer />
+    </>
   )
 }
 

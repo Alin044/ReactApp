@@ -1,0 +1,12 @@
+.nav-list{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  font-weight: 600;
+
+}
+
+.header-container{
+  display: flex;
+
+}

@@ -4,7 +4,7 @@ import React from 'react'
 function Header(){
   return (
       <header className="header-container">
-        <img src="../public/images/React.webp" alt="React Logo" width="100" />
+        <img src="../public/images/React.webp" className="nav-bar-logo" alt="React Logo" />
         <nav className="nav-container">
           <ul className="nav-list">
             <li>Home</li>
@@ -18,7 +18,7 @@ function Header(){
 
 function MainContent(){
   return (
-    <main>
+    <main className="main-container">
         <h1>This is a cool ass page</h1>
 
         <ul>
@@ -34,7 +34,7 @@ function MainContent(){
 
 function Footer(){
   return (
-    <footer><small>© 20xx Alexandru development. All rights reserved.</small></footer>
+    <footer className="footer-container"><small>© 20xx Alexandru development. All rights reserved.</small></footer>
   )
 }
 

@@ -9,7 +9,6 @@ const root = createRoot(document.getElementById('root'))
 function MainContent(){
     return (
         <>
-            <App />
             <Nav />
             <Main />
         </>
